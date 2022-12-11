@@ -10,3 +10,5 @@
 
 **Discord:** O.Faker#6420
 
+### About me:
+Studing at RS School :)
