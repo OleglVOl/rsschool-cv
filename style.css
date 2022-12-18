@@ -79,6 +79,11 @@ aside {
 	flex-direction: column;
 	padding-bottom: 10px;
 }
+.aside_section ul li{
+	padding-left: 10px;
+	padding-top: 5px;
+	list-style-type: none;
+}
 .wrap_section{
 	display: flex;
 	width: 515px;
@@ -90,3 +95,37 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 300;
 }
+.wrap_section p {
+	padding: 10px 0 0 10px;
+}
+.wrap_section section {
+	margin-bottom: 30px;
+}
+code {
+	display: flex;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+.progressbar { 
+	height: 10px;
+	position: relative;
+	background: lightgray;
+	padding: 1px;
+	box-shadow: inset 0 -1px 1px darkgray;
+}
+.progressbar > span {
+	display: block;
+	height: 100%;
+	background-color: #222;
+	position: relative;
+	overflow: hidden;
+  }
+  .skill_js {
+	width: 40%;
+  }
+  .skill_html {
+	width: 90%;
+  }
+  .skill_css {
+	width: 80%;
+  }
