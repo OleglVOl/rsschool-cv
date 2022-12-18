@@ -11,8 +11,9 @@ a, a:link, a:visited, a:hover, li  {
 }
 body {
 	background-color: lightgray;
-	justify-content: center;
+	align-items: center;
 	display: flex;
+	flex-direction: column;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #222;
 }
@@ -128,4 +129,23 @@ code {
   }
   .skill_css {
 	width: 80%;
+  }
+  footer {
+	width: 900px;
+	height: 80px;
+	background-color: #222;
+	padding: 0 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  footer a{
+	display: flex;
+	justify-content: center;
+  }
+  footer p{
+	color: #fff;
+	padding-top: 5px;
+	padding-left: 5px;
   }
