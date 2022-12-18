@@ -59,7 +59,7 @@ nav ul {
 nav a:hover {
 	text-decoration: underline;
 }
-article {
+.article {
 	display: flex;
 	background-color: #fff;
 	justify-content: space-between;
